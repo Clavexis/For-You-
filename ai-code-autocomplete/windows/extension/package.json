@@ -1,0 +1,33 @@
+{
+  "name": "local-ai-autocomplete",
+  "displayName": "Local AI Autocomplete",
+  "description": "Offline code autocomplete powered by a local LLM (Ollama). No data leaves your machine.",
+  "version": "1.0.0",
+  "publisher": "clavexis",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Programming Languages", "Machine Learning"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Local AI Autocomplete",
+      "properties": {
+        "localAiAutocomplete.endpoint": {
+          "type": "string",
+          "default": "http://127.0.0.1:11500/complete",
+          "description": "URL of the local autocomplete bridge (server.py)."
+        },
+        "localAiAutocomplete.languages": {
+          "type": "array",
+          "default": ["python", "javascript", "typescript", "cpp", "c"],
+          "description": "Languages where autocomplete is enabled."
+        },
+        "localAiAutocomplete.debounceMs": {
+          "type": "number",
+          "default": 300,
+          "description": "Delay before requesting a completion."
+        }
+      }
+    }
+  }
+}

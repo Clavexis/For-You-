@@ -1,0 +1,9 @@
+{
+  "kd": 0.74,
+  "win_rate": 1.8,
+  "accuracy": 16.5,
+  "avg_kills": 3.1,
+  "matches": 640,
+  "headshot_pct": 12,
+  "weapons": ["MCW", "Renetti"]
+}

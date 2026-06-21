@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Downloaded torrent payloads / artifacts
+*.torrent
+!demo.torrent
+downloads/
+*.part
+
+# OS
+.DS_Store
+Thumbs.db

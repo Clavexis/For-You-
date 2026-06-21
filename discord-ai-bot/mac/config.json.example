@@ -1,0 +1,5 @@
+{
+  "discord_token": "YOUR_DISCORD_BOT_TOKEN",
+  "anthropic_api_key": "sk-ant-...",
+  "openai_api_key": "sk-... (optional, for /imagine)"
+}

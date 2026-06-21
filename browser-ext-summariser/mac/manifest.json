@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "AI Page Summariser",
+  "version": "1.0.0",
+  "description": "One-click AI summary of any webpage, powered by Claude.",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": ["https://api.anthropic.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Summarise this page"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ai-summariser@clawtornix",
+      "strict_min_version": "115.0"
+    }
+  }
+}

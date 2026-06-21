@@ -1,0 +1,17 @@
+Jane Developer — Senior Software Engineer
+
+SUMMARY
+Backend engineer with 6 years building scalable services in Python and Go.
+
+EXPERIENCE
+Acme Corp — Senior Software Engineer (2021–present)
+  - Led migration of a monolith to microservices on Kubernetes.
+  - Built REST APIs serving 2M requests/day; cut p99 latency by 40%.
+  - Set up CI/CD pipelines with Jenkins and Docker.
+
+Globex — Software Engineer (2018–2021)
+  - Developed data pipelines in Python; PostgreSQL and Redis backends.
+  - Deployed services to AWS (ECS, RDS, S3).
+
+SKILLS
+Python, Go, Docker, Kubernetes, PostgreSQL, AWS, REST, CI/CD, Linux

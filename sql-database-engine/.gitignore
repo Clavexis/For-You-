@@ -1,0 +1,6 @@
+db
+db.exe
+*.o
+mydata/
+*.tbl
+.DS_Store

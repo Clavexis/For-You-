@@ -1,0 +1,24 @@
+# ~/.gitconfig — git configuration
+# Built by clavexis — github.com/clavexis
+# NOTE: set your name/email after install:
+#   git config --global user.name  "Your Name"
+#   git config --global user.email "you@example.com"
+
+[init]
+    defaultBranch = main
+[pull]
+    rebase = false
+[color]
+    ui = auto
+[core]
+    editor = nvim
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    lg = log --oneline --graph --decorate --all
+    last = log -1 HEAD
+    unstage = reset HEAD --
+[push]
+    autoSetupRemote = true

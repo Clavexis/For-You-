@@ -1,0 +1,15 @@
+# systemd service — copy to /etc/systemd/system/clawbot.service and edit paths.
+# Built by clavexis — github.com/clavexis
+[Unit]
+Description=Discord AI Bot (clawbot)
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/discord-ai-bot
+ExecStart=/usr/bin/python3 /opt/discord-ai-bot/bot.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

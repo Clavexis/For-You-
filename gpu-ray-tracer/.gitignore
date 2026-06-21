@@ -1,0 +1,6 @@
+raytracer
+raytracer.exe
+*.o
+render*.png
+!examples/render.png
+.DS_Store

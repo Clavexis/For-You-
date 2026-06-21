@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- Options page — store the Anthropic API key. Built by clavexis — github.com/clavexis -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 440px; margin: 40px auto; padding: 0 16px; }
+    h1 { font-size: 18px; }
+    input { width: 100%; padding: 8px; font: inherit; box-sizing: border-box;
+            border: 1px solid #ccc; border-radius: 6px; }
+    button { margin-top: 10px; padding: 8px 14px; border: none; border-radius: 6px;
+             background: #2a6; color: #fff; cursor: pointer; font: inherit; }
+    .muted { color: #888; font-size: 13px; }
+    #status { color: #2a6; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h1>AI Page Summariser — Settings</h1>
+  <p class="muted">Your Anthropic API key is stored locally in the browser and is
+    only sent to api.anthropic.com.</p>
+  <label for="key">Anthropic API key</label>
+  <input id="key" type="password" placeholder="sk-ant-..." />
+  <button id="save">Save</button>
+  <div id="status"></div>
+  <p class="muted">Get a key at
+    <a href="https://console.anthropic.com/" target="_blank">console.anthropic.com</a>.</p>
+  <script src="options.js"></script>
+</body>
+</html>

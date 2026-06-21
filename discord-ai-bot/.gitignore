@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets & config
+.env
+config.json
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+build/
+*.log
+
+# Bot runtime data
+guild_config.json

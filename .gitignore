@@ -1,0 +1,20 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+node_modules/
+target/
+
+# Secrets / config
+.env
+*.local
+
+# OS
+.DS_Store
+Thumbs.db

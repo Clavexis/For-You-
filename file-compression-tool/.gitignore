@@ -1,0 +1,5 @@
+huff
+huff.exe
+*.o
+*.huf
+.DS_Store

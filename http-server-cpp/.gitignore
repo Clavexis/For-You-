@@ -1,0 +1,12 @@
+# Compiled binaries
+server
+server.exe
+*.o
+*.obj
+*.exe
+*.out
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

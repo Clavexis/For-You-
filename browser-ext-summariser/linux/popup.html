@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- AI Page Summariser popup. Built by clavexis — github.com/clavexis -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    :root { color-scheme: light dark; }
+    body { width: 360px; font-family: system-ui, sans-serif; margin: 0; padding: 14px; }
+    h1 { font-size: 15px; margin: 0 0 10px; display: flex; align-items: center; gap: 6px; }
+    button { font: inherit; padding: 8px 12px; border: none; border-radius: 6px;
+             background: #2a6; color: #fff; cursor: pointer; }
+    button:disabled { opacity: .6; cursor: default; }
+    button.secondary { background: #555; }
+    .row { display: flex; gap: 8px; margin-bottom: 10px; }
+    #summary { white-space: pre-wrap; font-size: 13px; line-height: 1.45;
+               background: rgba(127,127,127,.12); border-radius: 6px; padding: 10px;
+               min-height: 60px; max-height: 320px; overflow-y: auto; }
+    .muted { color: #888; font-size: 12px; }
+    a { color: #2a6; }
+  </style>
+</head>
+<body>
+  <h1>📄 AI Page Summariser</h1>
+  <div class="row">
+    <button id="summarise">Summarise this page</button>
+    <button id="copy" class="secondary" disabled>Copy</button>
+  </div>
+  <div id="summary" class="muted">Click “Summarise this page” to begin.</div>
+  <p class="muted">No API key set? <a href="#" id="openOptions">Add one in options →</a></p>
+  <script src="popup.js"></script>
+</body>
+</html>

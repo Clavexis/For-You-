@@ -1,0 +1,10 @@
+# C/C++ build artifacts
+chip8
+chip8.exe
+*.o
+*.obj
+*.exe
+
+# OS
+.DS_Store
+Thumbs.db

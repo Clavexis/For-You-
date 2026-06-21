@@ -1,0 +1,6 @@
+neuralnet
+neuralnet.exe
+*.o
+data/
+*-ubyte
+.DS_Store

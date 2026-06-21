@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# clawbrowse stores bookmarks under ~/.config — nothing to ignore locally
+
+# OS
+.DS_Store
+Thumbs.db

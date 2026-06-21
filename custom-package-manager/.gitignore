@@ -1,0 +1,7 @@
+/target
+**/target
+Cargo.lock
+.clawpkg/
+clawpkg_modules/
+clawpkg.lock
+.DS_Store

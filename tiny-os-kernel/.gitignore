@@ -1,0 +1,17 @@
+# Compiled binaries
+chess
+chess.exe
+*.o
+*.obj
+*.exe
+*.out
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Kernel build artifacts
+kernel.elf
+*.iso
+isodir/

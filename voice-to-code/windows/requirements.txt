@@ -1,0 +1,6 @@
+anthropic>=0.40.0
+# Optional — only needed for the record/transcribe steps:
+# sounddevice>=0.4
+# numpy>=1.24
+# openai-whisper      # offline transcription
+# openai>=1.0         # OpenAI Whisper API fallback

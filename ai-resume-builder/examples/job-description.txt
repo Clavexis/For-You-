@@ -1,0 +1,12 @@
+Backend Engineer — Cloud Platform Team
+
+We're looking for a Backend Engineer to build and scale our cloud services.
+
+Required:
+  - Strong Python; AWS; Docker and Kubernetes.
+  - Experience designing REST APIs and microservices.
+  - PostgreSQL, CI/CD.
+Nice to have:
+  - Terraform, Kafka, GraphQL.
+  - Machine learning exposure.
+We value strong communication and leadership.
